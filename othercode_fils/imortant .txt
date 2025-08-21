@@ -1,0 +1,39 @@
+
+for creating virtual environment
+
+python -m venv venv
+
+
+
+for Activating virtual environment
+
+venv\Scripts\activate 
+
+
+
+
+install requirments 
+pip install -r requirements.txt
+
+
+
+for deactivating
+
+deactivate
+
+
+
+
+
+run flask first
+
+
+python flask_app.py
+
+
+second run streamlit
+
+streamlit run streamlit_app.py
+
+
+

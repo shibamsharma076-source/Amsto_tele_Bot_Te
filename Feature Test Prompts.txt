@@ -1,0 +1,57 @@
+Feature Test Prompts
+
+1️⃣ Qualification Based Job Recommendation
+Prompt: I have a B.Tech in Computer Science, 2 years of experience in Python development, and basic knowledge of cloud computing. Recommend me jobs based on my qualifications. "jobe"
+
+2️⃣ Job Based Qualification Recommendation
+Prompt: I want to become a Data Scientist. What qualifications, skills, and certifications do I need? "study"
+
+3️⃣ Disease Prediction
+Prompt: I have had a cough, fever, and shortness of breath for 3 days. What possible diseases could I have? "disease"
+
+4️⃣ Spam Messages / UPI Fraud Detection
+Prompt: Is this message a scam? 'Congratulations! You've won ₹50,000 in our lucky draw. Click here to claim: bit.ly/xxxx' "spam"
+
+5️⃣ Multi-Language Support
+Prompt: Translate 'How are you today?' into French, Japanese, and Hindi. "translate"
+
+6️⃣ Fake News Detection
+Prompt: Check if this news is fake: 'Government announces that income tax is completely abolished from next year.' "fake"
+
+7️⃣ Sentiment Analysis of Social Media Data
+Prompt: Analyze the sentiment of this tweet: 'I love the new update! It’s so much faster and easier to use.' "sentiment"
+
+8️⃣ Social Media Video / Audio / Transcript Downloader
+Prompt: "download"
+
+9️⃣ Interview Question Generator
+Prompt: Generate 10 technical interview questions for a Machine Learning Engineer role.  "interview"
+
+🔟 Text Translation
+Prompt: Translate 'I am learning Python programming' into Spanish. "translate"
+
+1️⃣1️⃣ Text Summarization with Summary Limit
+Prompt:    "summarise"
+
+1️⃣2️⃣ Text-to-Speech with Role Based
+Prompt: Welcome to our AI-powered chatbot.' "audio" "Male"
+
+1️⃣3️⃣ Plagiarism Checker
+Prompt:  "plagiarism"
+1️⃣4️⃣ Code Generation
+Prompt: Write a Python script to scrape the top 10 news headlines from BBC. "code"
+
+1️⃣5️⃣ QR Code Generator / Reader
+Prompt: Generate a QR code for the text: 'https://github.com' "qr"
+
+1️⃣6️⃣ Recipe Generator
+Prompt: Give me a dinner recipe using chicken, rice, and spinach. "recipe"
+
+1️⃣7️⃣ Text Rewriter / Paraphraser
+Prompt: I can't attend the meeting today because I'm feeling sick. "rewrite"
+
+1️⃣8️⃣ API Tester
+Prompt: https://api.github.com/users/octocat and return the JSON response. "api"
+
+1️⃣9️⃣ Grammar and Spell Checker
+Prompt: He go to market yestarday and buyed some fruits. "spell"

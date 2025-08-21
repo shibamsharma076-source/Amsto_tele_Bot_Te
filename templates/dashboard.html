@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-light">
+  <div class="container mt-4">
+    <h2>📊 Admin Dashboard</h2>
+    <br>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ url_for('create_admin') }}">➕ Create Admin</a>
+    </li>
+
+    <a href="/logout" class="btn btn-danger btn-sm float-end">Logout</a>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card p-3 shadow-sm">
+          <h5>Total Users</h5>
+          <p class="fs-4">{{ total_users }}</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 shadow-sm">
+          <h5>New Users (Last 30 Days)</h5>
+          <p class="fs-4">{{ new_users }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <canvas id="userChart"></canvas>
+    </div>
+
+    <h4 class="mt-5">⚠️ Recent Errors</h4>
+    <div class="d-flex justify-content-between mt-2">
+      <!-- Show All Button -->
+      <a href="{{ url_for('all_data', table='errors') }}" class="btn btn-sm btn-primary">📜 Show All Errors</a>
+
+      <!-- Export Button (dropdown) -->
+      <div class="dropdown">
+        <button class="btn btn-sm btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          ⬇ Export Errors
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='errors', format='json') }}">JSON</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='errors', format='csv') }}">CSV</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='errors', format='excel') }}">Excel</a>
+          </li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='errors', format='docx') }}">DOCX</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='errors', format='sql') }}">SQL</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Error</th>
+          <th>Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for e in errors %}
+        <tr>
+          <td>{{ e[0] }}</td>
+          <td>{{ e[1] }}</td>
+          <td>{{ e[2] }}</td>
+          <td>
+            <form method="POST" action="/delete_error/{{ e[0] }}">
+              <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+
+
+
+
+    <h2>🤖 Telegram Bot Registered Users</h2>
+    <div class="d-flex justify-content-between mt-2">
+      <!-- Show All Button -->
+      <a href="{{ url_for('all_data', table='Users') }}" class="btn btn-sm btn-primary">📜 Show All Users</a>
+
+      <!-- Export Button (dropdown) -->
+      <div class="dropdown">
+        <button class="btn btn-sm btn-success dropdown-toggle" data-bs-toggle="dropdown">⬇ Export Users</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='users', format='csv') }}">CSV</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='users', format='json') }}">JSON</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='users', format='excel') }}">Excel</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='users', format='docx') }}">DOCX</a></li>
+          <li><a class="dropdown-item" href="{{ url_for('export_data', table='users', format='sql') }}">SQL</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Telegram ID</th>
+          <th>Username</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Created At</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for u in telegram_users %}
+        <tr>
+          <td>{{ u[0] }}</td>
+          <td>{{ u[1] }}</td>
+          <td>{{ u[2] }}</td>
+          <td>{{ u[3] }}</td>
+          <td>{{ u[4] }}</td>
+          <td>{{ u[5] }}</td>
+          <td>{{ u[6] }}</td>
+          <td>{{ u[7] }}</td>
+          <td>{{ u[8] }}</td>
+          <td>
+            <form method="POST" action="/delete_telegram_user/{{ u[0] }}">
+              <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+
+
+
+
+  </div>
+
+  <script>
+    const ctx = document.getElementById('userChart').getContext('2d');
+    const labels = {{ monthly_users| map(attribute = 0) | list }};
+    const data = {{ monthly_users| map(attribute = 1) | list }};
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Users per Month',
+          data: data,
+          borderColor: 'blue',
+          tension: 0.3
+        }]
+      }
+    });
+  </script>
+</body>
+
+</html>

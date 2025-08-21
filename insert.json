@@ -1,0 +1,16 @@
+[
+  {
+    "email": "admin@example.com",
+    "password_hash": "hashed_password_here",
+    "github_oauth": false,
+    "role": "admin",
+    "created_at": "2025-08-09T00:00:00Z"
+  },
+  {
+    "email": "user1@example.com",
+    "password_hash": "hashed_password_here",
+    "github_oauth": false,
+    "role": "user",
+    "created_at": "2025-08-09T00:00:00Z"
+  }
+]

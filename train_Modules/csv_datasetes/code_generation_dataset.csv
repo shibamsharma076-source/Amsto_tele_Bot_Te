@@ -1,0 +1,1046 @@
+prompt,language,code_snippet
+Write a function to sort a list in python,python,"def sort(list):
+    # code to sort the list
+    return result"
+Write a function to sort a array in python,python,"def sort(array):
+    # code to sort the array
+    return result"
+Write a function to sort a string in python,python,"def sort(string):
+    # code to sort the string
+    return result"
+Write a function to sort a dictionary in python,python,"def sort(dictionary):
+    # code to sort the dictionary
+    return result"
+Write a function to sort a set in python,python,"def sort(set):
+    # code to sort the set
+    return result"
+Write a function to reverse a list in python,python,"def reverse(list):
+    # code to reverse the list
+    return result"
+Write a function to reverse a array in python,python,"def reverse(array):
+    # code to reverse the array
+    return result"
+Write a function to reverse a string in python,python,"def reverse(string):
+    # code to reverse the string
+    return result"
+Write a function to reverse a dictionary in python,python,"def reverse(dictionary):
+    # code to reverse the dictionary
+    return result"
+Write a function to reverse a set in python,python,"def reverse(set):
+    # code to reverse the set
+    return result"
+Write a function to find the maximum in a list in python,python,"def find_max(list):
+    # code to find the maximum in the list
+    return result"
+Write a function to find the maximum in a array in python,python,"def find_max(array):
+    # code to find the maximum in the array
+    return result"
+Write a function to find the maximum in a string in python,python,"def find_max(string):
+    # code to find the maximum in the string
+    return result"
+Write a function to find the maximum in a dictionary in python,python,"def find_max(dictionary):
+    # code to find the maximum in the dictionary
+    return result"
+Write a function to find the maximum in a set in python,python,"def find_max(set):
+    # code to find the maximum in the set
+    return result"
+Write a function to find the minimum in a list in python,python,"def find_min(list):
+    # code to find the minimum in the list
+    return result"
+Write a function to find the minimum in a array in python,python,"def find_min(array):
+    # code to find the minimum in the array
+    return result"
+Write a function to find the minimum in a string in python,python,"def find_min(string):
+    # code to find the minimum in the string
+    return result"
+Write a function to find the minimum in a dictionary in python,python,"def find_min(dictionary):
+    # code to find the minimum in the dictionary
+    return result"
+Write a function to find the minimum in a set in python,python,"def find_min(set):
+    # code to find the minimum in the set
+    return result"
+Write a function to remove duplicates from a list in python,python,"def remove_duplicates_from(list):
+    # code to remove duplicates from the list
+    return result"
+Write a function to remove duplicates from a array in python,python,"def remove_duplicates_from(array):
+    # code to remove duplicates from the array
+    return result"
+Write a function to remove duplicates from a string in python,python,"def remove_duplicates_from(string):
+    # code to remove duplicates from the string
+    return result"
+Write a function to remove duplicates from a dictionary in python,python,"def remove_duplicates_from(dictionary):
+    # code to remove duplicates from the dictionary
+    return result"
+Write a function to remove duplicates from a set in python,python,"def remove_duplicates_from(set):
+    # code to remove duplicates from the set
+    return result"
+Write a function to check if an element exists in a list in python,python,"def check_if_an_element_exists_in(list):
+    # code to check if an element exists in the list
+    return result"
+Write a function to check if an element exists in a array in python,python,"def check_if_an_element_exists_in(array):
+    # code to check if an element exists in the array
+    return result"
+Write a function to check if an element exists in a string in python,python,"def check_if_an_element_exists_in(string):
+    # code to check if an element exists in the string
+    return result"
+Write a function to check if an element exists in a dictionary in python,python,"def check_if_an_element_exists_in(dictionary):
+    # code to check if an element exists in the dictionary
+    return result"
+Write a function to check if an element exists in a set in python,python,"def check_if_an_element_exists_in(set):
+    # code to check if an element exists in the set
+    return result"
+Write a function to merge a list in python,python,"def merge(list):
+    # code to merge the list
+    return result"
+Write a function to merge a array in python,python,"def merge(array):
+    # code to merge the array
+    return result"
+Write a function to merge a string in python,python,"def merge(string):
+    # code to merge the string
+    return result"
+Write a function to merge a dictionary in python,python,"def merge(dictionary):
+    # code to merge the dictionary
+    return result"
+Write a function to merge a set in python,python,"def merge(set):
+    # code to merge the set
+    return result"
+Write a function to calculate the sum of a list in python,python,"def calculate_the_sum_of(list):
+    # code to calculate the sum of the list
+    return result"
+Write a function to calculate the sum of a array in python,python,"def calculate_the_sum_of(array):
+    # code to calculate the sum of the array
+    return result"
+Write a function to calculate the sum of a string in python,python,"def calculate_the_sum_of(string):
+    # code to calculate the sum of the string
+    return result"
+Write a function to calculate the sum of a dictionary in python,python,"def calculate_the_sum_of(dictionary):
+    # code to calculate the sum of the dictionary
+    return result"
+Write a function to calculate the sum of a set in python,python,"def calculate_the_sum_of(set):
+    # code to calculate the sum of the set
+    return result"
+Write a function to calculate the average of a list in python,python,"def calculate_the_average_of(list):
+    # code to calculate the average of the list
+    return result"
+Write a function to calculate the average of a array in python,python,"def calculate_the_average_of(array):
+    # code to calculate the average of the array
+    return result"
+Write a function to calculate the average of a string in python,python,"def calculate_the_average_of(string):
+    # code to calculate the average of the string
+    return result"
+Write a function to calculate the average of a dictionary in python,python,"def calculate_the_average_of(dictionary):
+    # code to calculate the average of the dictionary
+    return result"
+Write a function to calculate the average of a set in python,python,"def calculate_the_average_of(set):
+    # code to calculate the average of the set
+    return result"
+Write a function to filter even numbers from a list in python,python,"def filter_even_numbers_from(list):
+    # code to filter even numbers from the list
+    return result"
+Write a function to filter even numbers from a array in python,python,"def filter_even_numbers_from(array):
+    # code to filter even numbers from the array
+    return result"
+Write a function to filter even numbers from a string in python,python,"def filter_even_numbers_from(string):
+    # code to filter even numbers from the string
+    return result"
+Write a function to filter even numbers from a dictionary in python,python,"def filter_even_numbers_from(dictionary):
+    # code to filter even numbers from the dictionary
+    return result"
+Write a function to filter even numbers from a set in python,python,"def filter_even_numbers_from(set):
+    # code to filter even numbers from the set
+    return result"
+Write a function to filter odd numbers from a list in python,python,"def filter_odd_numbers_from(list):
+    # code to filter odd numbers from the list
+    return result"
+Write a function to filter odd numbers from a array in python,python,"def filter_odd_numbers_from(array):
+    # code to filter odd numbers from the array
+    return result"
+Write a function to filter odd numbers from a string in python,python,"def filter_odd_numbers_from(string):
+    # code to filter odd numbers from the string
+    return result"
+Write a function to filter odd numbers from a dictionary in python,python,"def filter_odd_numbers_from(dictionary):
+    # code to filter odd numbers from the dictionary
+    return result"
+Write a function to filter odd numbers from a set in python,python,"def filter_odd_numbers_from(set):
+    # code to filter odd numbers from the set
+    return result"
+Write a function to sort a list in javascript,javascript,"function sort(list) {
+    // code to sort the list
+    return result;
+}"
+Write a function to sort a array in javascript,javascript,"function sort(array) {
+    // code to sort the array
+    return result;
+}"
+Write a function to sort a string in javascript,javascript,"function sort(string) {
+    // code to sort the string
+    return result;
+}"
+Write a function to sort a dictionary in javascript,javascript,"function sort(dictionary) {
+    // code to sort the dictionary
+    return result;
+}"
+Write a function to sort a set in javascript,javascript,"function sort(set) {
+    // code to sort the set
+    return result;
+}"
+Write a function to reverse a list in javascript,javascript,"function reverse(list) {
+    // code to reverse the list
+    return result;
+}"
+Write a function to reverse a array in javascript,javascript,"function reverse(array) {
+    // code to reverse the array
+    return result;
+}"
+Write a function to reverse a string in javascript,javascript,"function reverse(string) {
+    // code to reverse the string
+    return result;
+}"
+Write a function to reverse a dictionary in javascript,javascript,"function reverse(dictionary) {
+    // code to reverse the dictionary
+    return result;
+}"
+Write a function to reverse a set in javascript,javascript,"function reverse(set) {
+    // code to reverse the set
+    return result;
+}"
+Write a function to find the maximum in a list in javascript,javascript,"function findTheMaximumIn(list) {
+    // code to find the maximum in the list
+    return result;
+}"
+Write a function to find the maximum in a array in javascript,javascript,"function findTheMaximumIn(array) {
+    // code to find the maximum in the array
+    return result;
+}"
+Write a function to find the maximum in a string in javascript,javascript,"function findTheMaximumIn(string) {
+    // code to find the maximum in the string
+    return result;
+}"
+Write a function to find the maximum in a dictionary in javascript,javascript,"function findTheMaximumIn(dictionary) {
+    // code to find the maximum in the dictionary
+    return result;
+}"
+Write a function to find the maximum in a set in javascript,javascript,"function findTheMaximumIn(set) {
+    // code to find the maximum in the set
+    return result;
+}"
+Write a function to find the minimum in a list in javascript,javascript,"function findTheMinimumIn(list) {
+    // code to find the minimum in the list
+    return result;
+}"
+Write a function to find the minimum in a array in javascript,javascript,"function findTheMinimumIn(array) {
+    // code to find the minimum in the array
+    return result;
+}"
+Write a function to find the minimum in a string in javascript,javascript,"function findTheMinimumIn(string) {
+    // code to find the minimum in the string
+    return result;
+}"
+Write a function to find the minimum in a dictionary in javascript,javascript,"function findTheMinimumIn(dictionary) {
+    // code to find the minimum in the dictionary
+    return result;
+}"
+Write a function to find the minimum in a set in javascript,javascript,"function findTheMinimumIn(set) {
+    // code to find the minimum in the set
+    return result;
+}"
+Write a function to remove duplicates from a list in javascript,javascript,"function removeDuplicatesFrom(list) {
+    // code to remove duplicates from the list
+    return result;
+}"
+Write a function to remove duplicates from a array in javascript,javascript,"function removeDuplicatesFrom(array) {
+    // code to remove duplicates from the array
+    return result;
+}"
+Write a function to remove duplicates from a string in javascript,javascript,"function removeDuplicatesFrom(string) {
+    // code to remove duplicates from the string
+    return result;
+}"
+Write a function to remove duplicates from a dictionary in javascript,javascript,"function removeDuplicatesFrom(dictionary) {
+    // code to remove duplicates from the dictionary
+    return result;
+}"
+Write a function to remove duplicates from a set in javascript,javascript,"function removeDuplicatesFrom(set) {
+    // code to remove duplicates from the set
+    return result;
+}"
+Write a function to check if an element exists in a list in javascript,javascript,"function checkIfAnElementExistsIn(list) {
+    // code to check if an element exists in the list
+    return result;
+}"
+Write a function to check if an element exists in a array in javascript,javascript,"function checkIfAnElementExistsIn(array) {
+    // code to check if an element exists in the array
+    return result;
+}"
+Write a function to check if an element exists in a string in javascript,javascript,"function checkIfAnElementExistsIn(string) {
+    // code to check if an element exists in the string
+    return result;
+}"
+Write a function to check if an element exists in a dictionary in javascript,javascript,"function checkIfAnElementExistsIn(dictionary) {
+    // code to check if an element exists in the dictionary
+    return result;
+}"
+Write a function to check if an element exists in a set in javascript,javascript,"function checkIfAnElementExistsIn(set) {
+    // code to check if an element exists in the set
+    return result;
+}"
+Write a function to merge a list in javascript,javascript,"function merge(list) {
+    // code to merge the list
+    return result;
+}"
+Write a function to merge a array in javascript,javascript,"function merge(array) {
+    // code to merge the array
+    return result;
+}"
+Write a function to merge a string in javascript,javascript,"function merge(string) {
+    // code to merge the string
+    return result;
+}"
+Write a function to merge a dictionary in javascript,javascript,"function merge(dictionary) {
+    // code to merge the dictionary
+    return result;
+}"
+Write a function to merge a set in javascript,javascript,"function merge(set) {
+    // code to merge the set
+    return result;
+}"
+Write a function to calculate the sum of a list in javascript,javascript,"function calculateTheSumOf(list) {
+    // code to calculate the sum of the list
+    return result;
+}"
+Write a function to calculate the sum of a array in javascript,javascript,"function calculateTheSumOf(array) {
+    // code to calculate the sum of the array
+    return result;
+}"
+Write a function to calculate the sum of a string in javascript,javascript,"function calculateTheSumOf(string) {
+    // code to calculate the sum of the string
+    return result;
+}"
+Write a function to calculate the sum of a dictionary in javascript,javascript,"function calculateTheSumOf(dictionary) {
+    // code to calculate the sum of the dictionary
+    return result;
+}"
+Write a function to calculate the sum of a set in javascript,javascript,"function calculateTheSumOf(set) {
+    // code to calculate the sum of the set
+    return result;
+}"
+Write a function to calculate the average of a list in javascript,javascript,"function calculateTheAverageOf(list) {
+    // code to calculate the average of the list
+    return result;
+}"
+Write a function to calculate the average of a array in javascript,javascript,"function calculateTheAverageOf(array) {
+    // code to calculate the average of the array
+    return result;
+}"
+Write a function to calculate the average of a string in javascript,javascript,"function calculateTheAverageOf(string) {
+    // code to calculate the average of the string
+    return result;
+}"
+Write a function to calculate the average of a dictionary in javascript,javascript,"function calculateTheAverageOf(dictionary) {
+    // code to calculate the average of the dictionary
+    return result;
+}"
+Write a function to calculate the average of a set in javascript,javascript,"function calculateTheAverageOf(set) {
+    // code to calculate the average of the set
+    return result;
+}"
+Write a function to filter even numbers from a list in javascript,javascript,"function filterEvenNumbersFrom(list) {
+    // code to filter even numbers from the list
+    return result;
+}"
+Write a function to filter even numbers from a array in javascript,javascript,"function filterEvenNumbersFrom(array) {
+    // code to filter even numbers from the array
+    return result;
+}"
+Write a function to filter even numbers from a string in javascript,javascript,"function filterEvenNumbersFrom(string) {
+    // code to filter even numbers from the string
+    return result;
+}"
+Write a function to filter even numbers from a dictionary in javascript,javascript,"function filterEvenNumbersFrom(dictionary) {
+    // code to filter even numbers from the dictionary
+    return result;
+}"
+Write a function to filter even numbers from a set in javascript,javascript,"function filterEvenNumbersFrom(set) {
+    // code to filter even numbers from the set
+    return result;
+}"
+Write a function to filter odd numbers from a list in javascript,javascript,"function filterOddNumbersFrom(list) {
+    // code to filter odd numbers from the list
+    return result;
+}"
+Write a function to filter odd numbers from a array in javascript,javascript,"function filterOddNumbersFrom(array) {
+    // code to filter odd numbers from the array
+    return result;
+}"
+Write a function to filter odd numbers from a string in javascript,javascript,"function filterOddNumbersFrom(string) {
+    // code to filter odd numbers from the string
+    return result;
+}"
+Write a function to filter odd numbers from a dictionary in javascript,javascript,"function filterOddNumbersFrom(dictionary) {
+    // code to filter odd numbers from the dictionary
+    return result;
+}"
+Write a function to filter odd numbers from a set in javascript,javascript,"function filterOddNumbersFrom(set) {
+    // code to filter odd numbers from the set
+    return result;
+}"
+Write a function to sort a list in java,java,"public static Object sort(list) {
+    // code to sort the list
+    return result;
+}"
+Write a function to sort a array in java,java,"public static Object sort(array) {
+    // code to sort the array
+    return result;
+}"
+Write a function to sort a string in java,java,"public static Object sort(string) {
+    // code to sort the string
+    return result;
+}"
+Write a function to sort a dictionary in java,java,"public static Object sort(dictionary) {
+    // code to sort the dictionary
+    return result;
+}"
+Write a function to sort a set in java,java,"public static Object sort(set) {
+    // code to sort the set
+    return result;
+}"
+Write a function to reverse a list in java,java,"public static Object reverse(list) {
+    // code to reverse the list
+    return result;
+}"
+Write a function to reverse a array in java,java,"public static Object reverse(array) {
+    // code to reverse the array
+    return result;
+}"
+Write a function to reverse a string in java,java,"public static Object reverse(string) {
+    // code to reverse the string
+    return result;
+}"
+Write a function to reverse a dictionary in java,java,"public static Object reverse(dictionary) {
+    // code to reverse the dictionary
+    return result;
+}"
+Write a function to reverse a set in java,java,"public static Object reverse(set) {
+    // code to reverse the set
+    return result;
+}"
+Write a function to find the maximum in a list in java,java,"public static Object findTheMaximumIn(list) {
+    // code to find the maximum in the list
+    return result;
+}"
+Write a function to find the maximum in a array in java,java,"public static Object findTheMaximumIn(array) {
+    // code to find the maximum in the array
+    return result;
+}"
+Write a function to find the maximum in a string in java,java,"public static Object findTheMaximumIn(string) {
+    // code to find the maximum in the string
+    return result;
+}"
+Write a function to find the maximum in a dictionary in java,java,"public static Object findTheMaximumIn(dictionary) {
+    // code to find the maximum in the dictionary
+    return result;
+}"
+Write a function to find the maximum in a set in java,java,"public static Object findTheMaximumIn(set) {
+    // code to find the maximum in the set
+    return result;
+}"
+Write a function to find the minimum in a list in java,java,"public static Object findTheMinimumIn(list) {
+    // code to find the minimum in the list
+    return result;
+}"
+Write a function to find the minimum in a array in java,java,"public static Object findTheMinimumIn(array) {
+    // code to find the minimum in the array
+    return result;
+}"
+Write a function to find the minimum in a string in java,java,"public static Object findTheMinimumIn(string) {
+    // code to find the minimum in the string
+    return result;
+}"
+Write a function to find the minimum in a dictionary in java,java,"public static Object findTheMinimumIn(dictionary) {
+    // code to find the minimum in the dictionary
+    return result;
+}"
+Write a function to find the minimum in a set in java,java,"public static Object findTheMinimumIn(set) {
+    // code to find the minimum in the set
+    return result;
+}"
+Write a function to remove duplicates from a list in java,java,"public static Object removeDuplicatesFrom(list) {
+    // code to remove duplicates from the list
+    return result;
+}"
+Write a function to remove duplicates from a array in java,java,"public static Object removeDuplicatesFrom(array) {
+    // code to remove duplicates from the array
+    return result;
+}"
+Write a function to remove duplicates from a string in java,java,"public static Object removeDuplicatesFrom(string) {
+    // code to remove duplicates from the string
+    return result;
+}"
+Write a function to remove duplicates from a dictionary in java,java,"public static Object removeDuplicatesFrom(dictionary) {
+    // code to remove duplicates from the dictionary
+    return result;
+}"
+Write a function to remove duplicates from a set in java,java,"public static Object removeDuplicatesFrom(set) {
+    // code to remove duplicates from the set
+    return result;
+}"
+Write a function to check if an element exists in a list in java,java,"public static Object checkIfAnElementExistsIn(list) {
+    // code to check if an element exists in the list
+    return result;
+}"
+Write a function to check if an element exists in a array in java,java,"public static Object checkIfAnElementExistsIn(array) {
+    // code to check if an element exists in the array
+    return result;
+}"
+Write a function to check if an element exists in a string in java,java,"public static Object checkIfAnElementExistsIn(string) {
+    // code to check if an element exists in the string
+    return result;
+}"
+Write a function to check if an element exists in a dictionary in java,java,"public static Object checkIfAnElementExistsIn(dictionary) {
+    // code to check if an element exists in the dictionary
+    return result;
+}"
+Write a function to check if an element exists in a set in java,java,"public static Object checkIfAnElementExistsIn(set) {
+    // code to check if an element exists in the set
+    return result;
+}"
+Write a function to merge a list in java,java,"public static Object merge(list) {
+    // code to merge the list
+    return result;
+}"
+Write a function to merge a array in java,java,"public static Object merge(array) {
+    // code to merge the array
+    return result;
+}"
+Write a function to merge a string in java,java,"public static Object merge(string) {
+    // code to merge the string
+    return result;
+}"
+Write a function to merge a dictionary in java,java,"public static Object merge(dictionary) {
+    // code to merge the dictionary
+    return result;
+}"
+Write a function to merge a set in java,java,"public static Object merge(set) {
+    // code to merge the set
+    return result;
+}"
+Write a function to calculate the sum of a list in java,java,"public static Object calculateTheSumOf(list) {
+    // code to calculate the sum of the list
+    return result;
+}"
+Write a function to calculate the sum of a array in java,java,"public static Object calculateTheSumOf(array) {
+    // code to calculate the sum of the array
+    return result;
+}"
+Write a function to calculate the sum of a string in java,java,"public static Object calculateTheSumOf(string) {
+    // code to calculate the sum of the string
+    return result;
+}"
+Write a function to calculate the sum of a dictionary in java,java,"public static Object calculateTheSumOf(dictionary) {
+    // code to calculate the sum of the dictionary
+    return result;
+}"
+Write a function to calculate the sum of a set in java,java,"public static Object calculateTheSumOf(set) {
+    // code to calculate the sum of the set
+    return result;
+}"
+Write a function to calculate the average of a list in java,java,"public static Object calculateTheAverageOf(list) {
+    // code to calculate the average of the list
+    return result;
+}"
+Write a function to calculate the average of a array in java,java,"public static Object calculateTheAverageOf(array) {
+    // code to calculate the average of the array
+    return result;
+}"
+Write a function to calculate the average of a string in java,java,"public static Object calculateTheAverageOf(string) {
+    // code to calculate the average of the string
+    return result;
+}"
+Write a function to calculate the average of a dictionary in java,java,"public static Object calculateTheAverageOf(dictionary) {
+    // code to calculate the average of the dictionary
+    return result;
+}"
+Write a function to calculate the average of a set in java,java,"public static Object calculateTheAverageOf(set) {
+    // code to calculate the average of the set
+    return result;
+}"
+Write a function to filter even numbers from a list in java,java,"public static Object filterEvenNumbersFrom(list) {
+    // code to filter even numbers from the list
+    return result;
+}"
+Write a function to filter even numbers from a array in java,java,"public static Object filterEvenNumbersFrom(array) {
+    // code to filter even numbers from the array
+    return result;
+}"
+Write a function to filter even numbers from a string in java,java,"public static Object filterEvenNumbersFrom(string) {
+    // code to filter even numbers from the string
+    return result;
+}"
+Write a function to filter even numbers from a dictionary in java,java,"public static Object filterEvenNumbersFrom(dictionary) {
+    // code to filter even numbers from the dictionary
+    return result;
+}"
+Write a function to filter even numbers from a set in java,java,"public static Object filterEvenNumbersFrom(set) {
+    // code to filter even numbers from the set
+    return result;
+}"
+Write a function to filter odd numbers from a list in java,java,"public static Object filterOddNumbersFrom(list) {
+    // code to filter odd numbers from the list
+    return result;
+}"
+Write a function to filter odd numbers from a array in java,java,"public static Object filterOddNumbersFrom(array) {
+    // code to filter odd numbers from the array
+    return result;
+}"
+Write a function to filter odd numbers from a string in java,java,"public static Object filterOddNumbersFrom(string) {
+    // code to filter odd numbers from the string
+    return result;
+}"
+Write a function to filter odd numbers from a dictionary in java,java,"public static Object filterOddNumbersFrom(dictionary) {
+    // code to filter odd numbers from the dictionary
+    return result;
+}"
+Write a function to filter odd numbers from a set in java,java,"public static Object filterOddNumbersFrom(set) {
+    // code to filter odd numbers from the set
+    return result;
+}"
+Write a function to sort a list in c++,c++,"auto sort(list) {
+    // code to sort the list
+    return result;
+}"
+Write a function to sort a array in c++,c++,"auto sort(array) {
+    // code to sort the array
+    return result;
+}"
+Write a function to sort a string in c++,c++,"auto sort(string) {
+    // code to sort the string
+    return result;
+}"
+Write a function to sort a dictionary in c++,c++,"auto sort(dictionary) {
+    // code to sort the dictionary
+    return result;
+}"
+Write a function to sort a set in c++,c++,"auto sort(set) {
+    // code to sort the set
+    return result;
+}"
+Write a function to reverse a list in c++,c++,"auto reverse(list) {
+    // code to reverse the list
+    return result;
+}"
+Write a function to reverse a array in c++,c++,"auto reverse(array) {
+    // code to reverse the array
+    return result;
+}"
+Write a function to reverse a string in c++,c++,"auto reverse(string) {
+    // code to reverse the string
+    return result;
+}"
+Write a function to reverse a dictionary in c++,c++,"auto reverse(dictionary) {
+    // code to reverse the dictionary
+    return result;
+}"
+Write a function to reverse a set in c++,c++,"auto reverse(set) {
+    // code to reverse the set
+    return result;
+}"
+Write a function to find the maximum in a list in c++,c++,"auto find_max(list) {
+    // code to find the maximum in the list
+    return result;
+}"
+Write a function to find the maximum in a array in c++,c++,"auto find_max(array) {
+    // code to find the maximum in the array
+    return result;
+}"
+Write a function to find the maximum in a string in c++,c++,"auto find_max(string) {
+    // code to find the maximum in the string
+    return result;
+}"
+Write a function to find the maximum in a dictionary in c++,c++,"auto find_max(dictionary) {
+    // code to find the maximum in the dictionary
+    return result;
+}"
+Write a function to find the maximum in a set in c++,c++,"auto find_max(set) {
+    // code to find the maximum in the set
+    return result;
+}"
+Write a function to find the minimum in a list in c++,c++,"auto find_min(list) {
+    // code to find the minimum in the list
+    return result;
+}"
+Write a function to find the minimum in a array in c++,c++,"auto find_min(array) {
+    // code to find the minimum in the array
+    return result;
+}"
+Write a function to find the minimum in a string in c++,c++,"auto find_min(string) {
+    // code to find the minimum in the string
+    return result;
+}"
+Write a function to find the minimum in a dictionary in c++,c++,"auto find_min(dictionary) {
+    // code to find the minimum in the dictionary
+    return result;
+}"
+Write a function to find the minimum in a set in c++,c++,"auto find_min(set) {
+    // code to find the minimum in the set
+    return result;
+}"
+Write a function to remove duplicates from a list in c++,c++,"auto remove_duplicates_from(list) {
+    // code to remove duplicates from the list
+    return result;
+}"
+Write a function to remove duplicates from a array in c++,c++,"auto remove_duplicates_from(array) {
+    // code to remove duplicates from the array
+    return result;
+}"
+Write a function to remove duplicates from a string in c++,c++,"auto remove_duplicates_from(string) {
+    // code to remove duplicates from the string
+    return result;
+}"
+Write a function to remove duplicates from a dictionary in c++,c++,"auto remove_duplicates_from(dictionary) {
+    // code to remove duplicates from the dictionary
+    return result;
+}"
+Write a function to remove duplicates from a set in c++,c++,"auto remove_duplicates_from(set) {
+    // code to remove duplicates from the set
+    return result;
+}"
+Write a function to check if an element exists in a list in c++,c++,"auto check_if_an_element_exists_in(list) {
+    // code to check if an element exists in the list
+    return result;
+}"
+Write a function to check if an element exists in a array in c++,c++,"auto check_if_an_element_exists_in(array) {
+    // code to check if an element exists in the array
+    return result;
+}"
+Write a function to check if an element exists in a string in c++,c++,"auto check_if_an_element_exists_in(string) {
+    // code to check if an element exists in the string
+    return result;
+}"
+Write a function to check if an element exists in a dictionary in c++,c++,"auto check_if_an_element_exists_in(dictionary) {
+    // code to check if an element exists in the dictionary
+    return result;
+}"
+Write a function to check if an element exists in a set in c++,c++,"auto check_if_an_element_exists_in(set) {
+    // code to check if an element exists in the set
+    return result;
+}"
+Write a function to merge a list in c++,c++,"auto merge(list) {
+    // code to merge the list
+    return result;
+}"
+Write a function to merge a array in c++,c++,"auto merge(array) {
+    // code to merge the array
+    return result;
+}"
+Write a function to merge a string in c++,c++,"auto merge(string) {
+    // code to merge the string
+    return result;
+}"
+Write a function to merge a dictionary in c++,c++,"auto merge(dictionary) {
+    // code to merge the dictionary
+    return result;
+}"
+Write a function to merge a set in c++,c++,"auto merge(set) {
+    // code to merge the set
+    return result;
+}"
+Write a function to calculate the sum of a list in c++,c++,"auto calculate_the_sum_of(list) {
+    // code to calculate the sum of the list
+    return result;
+}"
+Write a function to calculate the sum of a array in c++,c++,"auto calculate_the_sum_of(array) {
+    // code to calculate the sum of the array
+    return result;
+}"
+Write a function to calculate the sum of a string in c++,c++,"auto calculate_the_sum_of(string) {
+    // code to calculate the sum of the string
+    return result;
+}"
+Write a function to calculate the sum of a dictionary in c++,c++,"auto calculate_the_sum_of(dictionary) {
+    // code to calculate the sum of the dictionary
+    return result;
+}"
+Write a function to calculate the sum of a set in c++,c++,"auto calculate_the_sum_of(set) {
+    // code to calculate the sum of the set
+    return result;
+}"
+Write a function to calculate the average of a list in c++,c++,"auto calculate_the_average_of(list) {
+    // code to calculate the average of the list
+    return result;
+}"
+Write a function to calculate the average of a array in c++,c++,"auto calculate_the_average_of(array) {
+    // code to calculate the average of the array
+    return result;
+}"
+Write a function to calculate the average of a string in c++,c++,"auto calculate_the_average_of(string) {
+    // code to calculate the average of the string
+    return result;
+}"
+Write a function to calculate the average of a dictionary in c++,c++,"auto calculate_the_average_of(dictionary) {
+    // code to calculate the average of the dictionary
+    return result;
+}"
+Write a function to calculate the average of a set in c++,c++,"auto calculate_the_average_of(set) {
+    // code to calculate the average of the set
+    return result;
+}"
+Write a function to filter even numbers from a list in c++,c++,"auto filter_even_numbers_from(list) {
+    // code to filter even numbers from the list
+    return result;
+}"
+Write a function to filter even numbers from a array in c++,c++,"auto filter_even_numbers_from(array) {
+    // code to filter even numbers from the array
+    return result;
+}"
+Write a function to filter even numbers from a string in c++,c++,"auto filter_even_numbers_from(string) {
+    // code to filter even numbers from the string
+    return result;
+}"
+Write a function to filter even numbers from a dictionary in c++,c++,"auto filter_even_numbers_from(dictionary) {
+    // code to filter even numbers from the dictionary
+    return result;
+}"
+Write a function to filter even numbers from a set in c++,c++,"auto filter_even_numbers_from(set) {
+    // code to filter even numbers from the set
+    return result;
+}"
+Write a function to filter odd numbers from a list in c++,c++,"auto filter_odd_numbers_from(list) {
+    // code to filter odd numbers from the list
+    return result;
+}"
+Write a function to filter odd numbers from a array in c++,c++,"auto filter_odd_numbers_from(array) {
+    // code to filter odd numbers from the array
+    return result;
+}"
+Write a function to filter odd numbers from a string in c++,c++,"auto filter_odd_numbers_from(string) {
+    // code to filter odd numbers from the string
+    return result;
+}"
+Write a function to filter odd numbers from a dictionary in c++,c++,"auto filter_odd_numbers_from(dictionary) {
+    // code to filter odd numbers from the dictionary
+    return result;
+}"
+Write a function to filter odd numbers from a set in c++,c++,"auto filter_odd_numbers_from(set) {
+    // code to filter odd numbers from the set
+    return result;
+}"
+Write a function to sort a list in ruby,ruby,"def sort(list)
+    # code to sort the list
+    return result
+end"
+Write a function to sort a array in ruby,ruby,"def sort(array)
+    # code to sort the array
+    return result
+end"
+Write a function to sort a string in ruby,ruby,"def sort(string)
+    # code to sort the string
+    return result
+end"
+Write a function to sort a dictionary in ruby,ruby,"def sort(dictionary)
+    # code to sort the dictionary
+    return result
+end"
+Write a function to sort a set in ruby,ruby,"def sort(set)
+    # code to sort the set
+    return result
+end"
+Write a function to reverse a list in ruby,ruby,"def reverse(list)
+    # code to reverse the list
+    return result
+end"
+Write a function to reverse a array in ruby,ruby,"def reverse(array)
+    # code to reverse the array
+    return result
+end"
+Write a function to reverse a string in ruby,ruby,"def reverse(string)
+    # code to reverse the string
+    return result
+end"
+Write a function to reverse a dictionary in ruby,ruby,"def reverse(dictionary)
+    # code to reverse the dictionary
+    return result
+end"
+Write a function to reverse a set in ruby,ruby,"def reverse(set)
+    # code to reverse the set
+    return result
+end"
+Write a function to find the maximum in a list in ruby,ruby,"def find_max(list)
+    # code to find the maximum in the list
+    return result
+end"
+Write a function to find the maximum in a array in ruby,ruby,"def find_max(array)
+    # code to find the maximum in the array
+    return result
+end"
+Write a function to find the maximum in a string in ruby,ruby,"def find_max(string)
+    # code to find the maximum in the string
+    return result
+end"
+Write a function to find the maximum in a dictionary in ruby,ruby,"def find_max(dictionary)
+    # code to find the maximum in the dictionary
+    return result
+end"
+Write a function to find the maximum in a set in ruby,ruby,"def find_max(set)
+    # code to find the maximum in the set
+    return result
+end"
+Write a function to find the minimum in a list in ruby,ruby,"def find_min(list)
+    # code to find the minimum in the list
+    return result
+end"
+Write a function to find the minimum in a array in ruby,ruby,"def find_min(array)
+    # code to find the minimum in the array
+    return result
+end"
+Write a function to find the minimum in a string in ruby,ruby,"def find_min(string)
+    # code to find the minimum in the string
+    return result
+end"
+Write a function to find the minimum in a dictionary in ruby,ruby,"def find_min(dictionary)
+    # code to find the minimum in the dictionary
+    return result
+end"
+Write a function to find the minimum in a set in ruby,ruby,"def find_min(set)
+    # code to find the minimum in the set
+    return result
+end"
+Write a function to remove duplicates from a list in ruby,ruby,"def remove_duplicates_from(list)
+    # code to remove duplicates from the list
+    return result
+end"
+Write a function to remove duplicates from a array in ruby,ruby,"def remove_duplicates_from(array)
+    # code to remove duplicates from the array
+    return result
+end"
+Write a function to remove duplicates from a string in ruby,ruby,"def remove_duplicates_from(string)
+    # code to remove duplicates from the string
+    return result
+end"
+Write a function to remove duplicates from a dictionary in ruby,ruby,"def remove_duplicates_from(dictionary)
+    # code to remove duplicates from the dictionary
+    return result
+end"
+Write a function to remove duplicates from a set in ruby,ruby,"def remove_duplicates_from(set)
+    # code to remove duplicates from the set
+    return result
+end"
+Write a function to check if an element exists in a list in ruby,ruby,"def check_if_an_element_exists_in(list)
+    # code to check if an element exists in the list
+    return result
+end"
+Write a function to check if an element exists in a array in ruby,ruby,"def check_if_an_element_exists_in(array)
+    # code to check if an element exists in the array
+    return result
+end"
+Write a function to check if an element exists in a string in ruby,ruby,"def check_if_an_element_exists_in(string)
+    # code to check if an element exists in the string
+    return result
+end"
+Write a function to check if an element exists in a dictionary in ruby,ruby,"def check_if_an_element_exists_in(dictionary)
+    # code to check if an element exists in the dictionary
+    return result
+end"
+Write a function to check if an element exists in a set in ruby,ruby,"def check_if_an_element_exists_in(set)
+    # code to check if an element exists in the set
+    return result
+end"
+Write a function to merge a list in ruby,ruby,"def merge(list)
+    # code to merge the list
+    return result
+end"
+Write a function to merge a array in ruby,ruby,"def merge(array)
+    # code to merge the array
+    return result
+end"
+Write a function to merge a string in ruby,ruby,"def merge(string)
+    # code to merge the string
+    return result
+end"
+Write a function to merge a dictionary in ruby,ruby,"def merge(dictionary)
+    # code to merge the dictionary
+    return result
+end"
+Write a function to merge a set in ruby,ruby,"def merge(set)
+    # code to merge the set
+    return result
+end"
+Write a function to calculate the sum of a list in ruby,ruby,"def calculate_the_sum_of(list)
+    # code to calculate the sum of the list
+    return result
+end"
+Write a function to calculate the sum of a array in ruby,ruby,"def calculate_the_sum_of(array)
+    # code to calculate the sum of the array
+    return result
+end"
+Write a function to calculate the sum of a string in ruby,ruby,"def calculate_the_sum_of(string)
+    # code to calculate the sum of the string
+    return result
+end"
+Write a function to calculate the sum of a dictionary in ruby,ruby,"def calculate_the_sum_of(dictionary)
+    # code to calculate the sum of the dictionary
+    return result
+end"
+Write a function to calculate the sum of a set in ruby,ruby,"def calculate_the_sum_of(set)
+    # code to calculate the sum of the set
+    return result
+end"
+Write a function to calculate the average of a list in ruby,ruby,"def calculate_the_average_of(list)
+    # code to calculate the average of the list
+    return result
+end"
+Write a function to calculate the average of a array in ruby,ruby,"def calculate_the_average_of(array)
+    # code to calculate the average of the array
+    return result
+end"
+Write a function to calculate the average of a string in ruby,ruby,"def calculate_the_average_of(string)
+    # code to calculate the average of the string
+    return result
+end"
+Write a function to calculate the average of a dictionary in ruby,ruby,"def calculate_the_average_of(dictionary)
+    # code to calculate the average of the dictionary
+    return result
+end"
+Write a function to calculate the average of a set in ruby,ruby,"def calculate_the_average_of(set)
+    # code to calculate the average of the set
+    return result
+end"
+Write a function to filter even numbers from a list in ruby,ruby,"def filter_even_numbers_from(list)
+    # code to filter even numbers from the list
+    return result
+end"
+Write a function to filter even numbers from a array in ruby,ruby,"def filter_even_numbers_from(array)
+    # code to filter even numbers from the array
+    return result
+end"
+Write a function to filter even numbers from a string in ruby,ruby,"def filter_even_numbers_from(string)
+    # code to filter even numbers from the string
+    return result
+end"
+Write a function to filter even numbers from a dictionary in ruby,ruby,"def filter_even_numbers_from(dictionary)
+    # code to filter even numbers from the dictionary
+    return result
+end"
+Write a function to filter even numbers from a set in ruby,ruby,"def filter_even_numbers_from(set)
+    # code to filter even numbers from the set
+    return result
+end"
+Write a function to filter odd numbers from a list in ruby,ruby,"def filter_odd_numbers_from(list)
+    # code to filter odd numbers from the list
+    return result
+end"
+Write a function to filter odd numbers from a array in ruby,ruby,"def filter_odd_numbers_from(array)
+    # code to filter odd numbers from the array
+    return result
+end"
+Write a function to filter odd numbers from a string in ruby,ruby,"def filter_odd_numbers_from(string)
+    # code to filter odd numbers from the string
+    return result
+end"
+Write a function to filter odd numbers from a dictionary in ruby,ruby,"def filter_odd_numbers_from(dictionary)
+    # code to filter odd numbers from the dictionary
+    return result
+end"
+Write a function to filter odd numbers from a set in ruby,ruby,"def filter_odd_numbers_from(set)
+    # code to filter odd numbers from the set
+    return result
+end"

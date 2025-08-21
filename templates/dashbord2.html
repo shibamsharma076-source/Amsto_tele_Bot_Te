@@ -1,0 +1,31 @@
+<h2>🤖 Telegram Bot Registered Users</h2>
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Telegram ID</th>
+      <th>Username</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Created At</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for u in telegram_users %}
+    <tr>
+      <td>{{ u[0] }}</td>
+      <td>{{ u[1] }}</td>
+      <td>{{ u[2] }}</td>
+      <td>{{ u[3] }}</td>
+      <td>{{ u[4] }}</td>
+      <td>{{ u[5] }}</td>
+      <td>{{ u[6] }}</td>
+      <td>{{ u[7] }}</td>
+      <td>{{ u[8] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

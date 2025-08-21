@@ -1,0 +1,9 @@
+query_type,code_snippet_pattern,code_language,issue_or_analysis_focus,local_response
+detect_language,import os,Python,Language Detection,This looks like Python code.
+detect_language,function,JavaScript,Language Detection,This looks like JavaScript code.
+detect_language,<!DOCTYPE html>,HTML,Language Detection,This looks like HTML code.
+fix_code,print('Hello'),Python,Missing parenthesis for print,"To fix 'print(\'Hello\')', you need to add parentheses: `print('Hello')`."
+fix_code,for i in range(5):,Python,Incorrect indentation,"If 'for i in range(5):' is causing an error, check the indentation of the lines below it."
+fix_code,const x = 10,JavaScript,Variable declaration,The `const` keyword in JavaScript declares a constant variable.
+analyze_code,def factorial(n):,Python,Function purpose,The `factorial` function calculates the factorial of a number.
+analyze_code,SELECT * FROM users,SQL,Database query analysis,This SQL query selects all columns from the 'users' table.

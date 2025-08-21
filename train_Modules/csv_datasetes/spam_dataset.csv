@@ -1,0 +1,10 @@
+text,label
+Congratulations! You've won a free prize!,spam
+Click this link to claim your reward now!,spam
+"Hey, how are you doing today?",not spam
+This is an urgent message regarding your bank account.,spam
+Meeting at 3 PM to discuss project progress.,not spam
+You have been selected to win a cruise!,spam
+Can you send me the report by EOD?,not spam
+Your account has been flagged for suspicious activity. Click here.,spam
+Please review the attached document for the meeting.,not spam

@@ -1,0 +1,11 @@
+text,sentiment
+I love this product! It's amazing.,positive
+"This is terrible, I'm so disappointed.",negative
+"The service was okay, nothing special.",neutral
+"Feeling great today, everything is perfect.",positive
+This movie was boring and slow.,negative
+It's a neutral statement.,neutral
+"Fantastic experience, highly recommend!",positive
+"Worst day ever, everything went wrong.",negative
+The weather is cloudy.,neutral
+I am very happy with the results.,positive
