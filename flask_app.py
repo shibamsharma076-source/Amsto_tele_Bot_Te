@@ -162,7 +162,9 @@ app.config["MONGO_URI"] = os.getenv("MONGO_URI")
 # "mongodb+srv://<username>:<password>@<clustername>.mongodb.net/<dbname>?retryWrites=true&w=majority"
 mongo = PyMongo(app)
 
-
+MONGO_URI = os.getenv("MONGO_URI") # Get from environment variable
+client = MongoClient(MONGO_URI)
+db = client["ai_bot"] # Choose a name for your new database
 
 
 
