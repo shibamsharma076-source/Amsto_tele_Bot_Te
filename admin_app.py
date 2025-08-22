@@ -10,10 +10,10 @@ from docx import Document
 
 
 app = Flask(__name__)
-# app.secret_key = "supersecretkey"  # change to secure key
-app.secret_key = os.environ.get("FLASK_SECRET_KEY")
-if not app.secret_key:
-    raise RuntimeError("FLASK_SECRET_KEY environment variable not set.")
+app.secret_key = "supersecretkey"  # change to secure key
+# app.secret_key = os.environ.get("FLASK_SECRET_KEY")
+# if not app.secret_key:
+#     raise RuntimeError("FLASK_SECRET_KEY environment variable not set.")
 
 
 @app.route("/create_admin", methods=["GET", "POST"])
@@ -83,6 +83,19 @@ def logout():
 
 
 
+# Delete a Streamlit user
+@app.route("/delete_streamlit_user/<int:user_id>")
+def delete_streamlit_user(user_id):
+    if "admin" not in session:
+        return redirect(url_for("login"))
+
+    conn = sqlite3.connect("db/users.db")
+    cur = conn.cursor()
+    cur.execute("DELETE FROM users WHERE id=?", (user_id,))
+    conn.commit()
+    conn.close()
+
+    return redirect(url_for("dashboard"))
 
 
 
@@ -239,6 +252,17 @@ def dashboard():
         "SELECT strftime('%Y-%m', created_at), COUNT(*) FROM users GROUP BY strftime('%Y-%m', created_at) ORDER BY 1"
     )
 
+    # ---- Streamlit Registered Users ----
+    # streamlit_users = query_db("db/users.db",
+    #     "SELECT id, full_name, dob, username, email, role, created_at FROM users ORDER BY created_at DESC LIMIT 20"
+    # )
+    streamlit_users = query_db("db/users.db",
+        "SELECT id, full_name, dob, username, email, password_hash, role, created_at FROM users ORDER BY created_at DESC LIMIT 20"
+    )
+
+
+
+
     # ---- Telegram Bot Users (bot_users.db) ----
     telegram_users = query_db("db/bot_users.db",
         "SELECT telegram_id, username, first_name, last_name, phone, email, latitude, longitude, created_at FROM users ORDER BY created_at DESC"
@@ -258,7 +282,7 @@ def dashboard():
     return render_template("dashboard.html",
                            total_users=total_users,
                            new_users=new_users,
-                           monthly_users=monthly_users,
+                           monthly_users=monthly_users,streamlit_users=streamlit_users,
                            telegram_users=telegram_users,
                            errors=errors,
                            recent_errors=recent_errors,
