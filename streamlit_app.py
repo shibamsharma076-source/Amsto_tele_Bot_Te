@@ -37,7 +37,8 @@ FLASK_MEDIA_DOWNLOAD_BASE_URL = "http://localhost:5000" # Changed to base URL fo
 FLASK_API_URL = os.environ.get("FLASK_API_URL")
 if not FLASK_API_URL:
     # Fallback for local development
-    FLASK_API_URL = "http://localhost:5000"
+    # FLASK_API_URL = "http://localhost:5000"
+    FLASK_API_URL = "http://13.60.240.108:5000"  # EC2 instance IP
 
 CHAT_ENDPOINT = urljoin(FLASK_API_URL, "/chat")
 LOGIN_ENDPOINT = urljoin(FLASK_API_URL, "/login")
