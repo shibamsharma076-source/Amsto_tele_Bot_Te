@@ -43,8 +43,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-import nltk
-nltk.download('punkt')
+
+
 
 
 
