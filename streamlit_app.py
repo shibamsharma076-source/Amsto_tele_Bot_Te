@@ -38,7 +38,7 @@ FLASK_API_URL = os.environ.get("FLASK_API_URL")
 if not FLASK_API_URL:
     # Fallback for local development
     # FLASK_API_URL = "http://localhost:5000"
-    FLASK_API_URL = "http://13.60.240.108:5000"  # EC2 instance IP
+    FLASK_API_URL = "http://13.60.52.20:5000"  # EC2 instance IP
 
 CHAT_ENDPOINT = urljoin(FLASK_API_URL, "/chat")
 LOGIN_ENDPOINT = urljoin(FLASK_API_URL, "/login")
