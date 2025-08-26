@@ -3737,6 +3737,7 @@ def test_interview_qa():
 def get_page_content(page_name):
     pages = {
         "home": "Welcome to the Home page!",
+        "admin": "Welcome to the Admin page!",
         "about": "This is the About Us page.",
         "docs": "Here is the documentation content.",
         "contact": "You can contact us at support@example.com",

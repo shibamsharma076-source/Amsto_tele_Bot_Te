@@ -55,8 +55,8 @@ load_dotenv()
 
 
 # ---------- Config ----------
-FLASK_BASE_URL = os.getenv("FLASK_BASE_URL", "http://localhost:5000")
-# FLASK_BASE_URL = os.getenv("FLASK_BASE_URL", "http://13.60.240.108:5000")
+# FLASK_BASE_URL = os.getenv("FLASK_BASE_URL", "http://localhost:5000")
+FLASK_BASE_URL = os.getenv("FLASK_BASE_URL", "http://13.60.240.108:5000")
 CHAT_ENDPOINT = f"{FLASK_BASE_URL}/chat"
 LOGIN_ENDPOINT = f"{FLASK_BASE_URL}/login"
 REGISTER_ENDPOINT = f"{FLASK_BASE_URL}/register"
