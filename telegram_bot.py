@@ -393,11 +393,14 @@ async def location_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def email_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     text = update.message.text.strip()
+
     if "@" in text and "." in text:
         update_user_email(user.id, text)
         await update.message.reply_text("✅ Email saved!")
+        return ConversationHandler.END   # ✅ End conversation, go back to normal bot flow
     else:
         await update.message.reply_text("⚠️ That doesn’t look like a valid email. Try again.")
+        return ASK_EMAIL  # Still waiting for valid email
 
 
 

@@ -24,3 +24,8 @@ yt-dlp
 python-telegram-bot
 xlsxwriter
 gunicorn
+flask-pymongo 
+sqlalchemy 
+python-docx
+scikit-learn 
+ 
